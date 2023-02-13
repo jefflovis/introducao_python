@@ -18,12 +18,12 @@ while (count != 0):
 
 soma = 0
 qtd = 0
-num = float(input('Numero'))
+num = float(input(f'Informe o número {qtd + 1}:'))
 
 while num >= 0:
     soma = soma + num
     qtd = qtd + 1
-    num = float(input('Numero'))
+    num = float(input(f'Informe o número {qtd + 1}:'))
 
 
 if qtd > 0:    
